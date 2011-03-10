@@ -1,0 +1,9 @@
+[submodule "plugins/opKakiagePlugin"]
+	path = plugins/opKakiagePlugin
+	url = git://github.com/balibali/opKakiagePlugin
+[submodule "plugins/opSkinKakiagePlugin"]
+	path = plugins/opSkinKakiagePlugin
+	url = git://github.com/balibali/opSkinKakiagePlugin
+[submodule "plugins/opIdCallPlugin"]
+	path = plugins/opIdCallPlugin
+	url = git://github.com/tozuka/opIdCallPlugin
