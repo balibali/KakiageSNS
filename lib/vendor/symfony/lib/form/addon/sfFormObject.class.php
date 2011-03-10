@@ -129,6 +129,11 @@ abstract class sfFormObject extends BaseForm
 
       $this->doSave($con);
 
+      if (self::$dispatcher)
+      {
+        self::$dispatcher->notify(new sfEvent($this, 'form.post_save'));
+      }
+
       $con->commit();
     }
     catch (Exception $e)
